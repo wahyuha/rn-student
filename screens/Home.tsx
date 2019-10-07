@@ -34,9 +34,6 @@ const Home = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
-          <View>
-            <Link to={{ pathname: '/login', state: { name: 'Agung'}}}><Text>Go to Login</Text></Link>
-          </View>
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
@@ -66,8 +63,8 @@ const Home = () => {
             <LearnMoreLinks />
           </View>
         </ScrollView>
-        <BottomNavigationBar />
       </SafeAreaView>
+        <BottomNavigationBar />
     </>
   );
 };

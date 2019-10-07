@@ -4,10 +4,9 @@ import Register from './screens/Register';
 
 import HomeInterface from './interfaces/screens/Home';
 import LoginInterface from './interfaces/screens/Login';
-import RegisterInterface from './interfaces/screens/Register';
 
 interface appRoutesProps {
-  component: React.FC<HomeInterface | LoginInterface>,
+  component: React.FC<HomeInterface> | React.FC<LoginInterface> | React.FC<{}>,
   exact?: Boolean;
   key?: String;
   path: String;

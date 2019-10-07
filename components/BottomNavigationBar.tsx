@@ -1,15 +1,34 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-native';
+import {
+  Link,
+  Route,
+  withRouter,
+} from 'react-router-native';
 import {
   StyleSheet,
   Text,
   View,
 } from 'react-native';
 
-const BottomNavigationBar: React.FC<any> = (props: any) => {
-  const {
-    match,
-  } = props;
+const TabMenu = ({ activeOnlyWhenExact, children, style, to }: any) => {
+  return (
+    <Route
+      path={to}
+      exact={activeOnlyWhenExact}
+      children={({ match }) => (
+        <View style={style}>
+          <Link to={to}>
+            <Text style={{ color: match ? 'blue' : '#222' }}>
+              {children}
+            </Text>
+          </Link>
+        </View>
+      )}
+    />
+  );
+}
+
+const BottomNavigationBar: React.FC<any> = () => {
   const menus = [
     {
       label: 'Home',
@@ -17,7 +36,7 @@ const BottomNavigationBar: React.FC<any> = (props: any) => {
     },
     {
       label: 'Profil',
-      path: '/profil',
+      path: '/login',
     },
     {
       label: 'Status',
@@ -31,9 +50,7 @@ const BottomNavigationBar: React.FC<any> = (props: any) => {
   return (
     <View style={styles.root}>
       {menus.map((menu: any) => (
-        <View style={styles.menu} key={menu.path}>
-          <Link to={menu.path}><Text style={{ color: match.url === menu.path ? 'blue' : '#222' }}>{menu.label}</Text></Link>
-        </View>
+        <TabMenu to={menu.path} style={styles.menu} key={menu.path}>{menu.label}</TabMenu>
       ))}
     </View>
   );
@@ -64,4 +81,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default withRouter(BottomNavigationBar);
+export default React.memo(withRouter(BottomNavigationBar));

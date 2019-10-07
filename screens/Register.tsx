@@ -1,6 +1,8 @@
 import React from 'react';
 import {
+  Alert,
   Button,
+  Linking,
   SafeAreaView,
   StatusBar,
   StyleSheet,
@@ -9,9 +11,9 @@ import {
   View,
 } from 'react-native';
 import { Link } from 'react-router-native';
-import LoginProps from '../interfaces/screens/Login';
+import useAnimation from '../helpers/useAnimation';
 
-const Login: React.FC<LoginProps> = (props: LoginProps) => {
+const Login: React.FC = () => {
   const [email, setEmail] = React.useState('');
   const [name, setName] = React.useState('');
   const [phone, setPhone] = React.useState('');
@@ -23,9 +25,29 @@ const Login: React.FC<LoginProps> = (props: LoginProps) => {
     setIsSubmitting(true);
     const st = setTimeout(() => {
       setIsSubmitting(false);
+      sendWhatsAppMessage('whatsapp://send?text=hello&phone=xxxxxxxxxxxxx');
       clearTimeout(st);
     }, 1000);
   }
+
+  const sendWhatsAppMessage = (link: string) => {
+    if (link) {
+      Linking.canOpenURL(link)
+        .then(supported => {
+          if (!supported) {
+            Alert.alert(
+              'Please install whats app to send direct message to students via WhasApp'
+            );
+          } else {
+            return Linking.openURL(link);
+          }
+        })
+        .catch(err => console.error('An error occurred', err));
+    } else {
+      console.log('sendWhatsAppMessage -----> ', 'message link is undefined');
+    }
+  }
+
   return (
     <>
       <StatusBar barStyle="default" />

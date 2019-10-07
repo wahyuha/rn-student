@@ -3,7 +3,6 @@ import {
   Button,
   SafeAreaView,
   StatusBar,
-  StyleSheet,
   Text,
   TextInput,
   View,
@@ -27,8 +26,9 @@ const Login: React.FC<LoginProps> = (props: LoginProps) => {
       clearTimeout(st);
     }, 1000);
   }
+  
   return (
-    <>
+    <View>
       <StatusBar barStyle="default" />
       <SafeAreaView>
         <View style={{ justifyContent: 'center', alignItems: 'center', padding: 15, }}>
@@ -66,7 +66,7 @@ const Login: React.FC<LoginProps> = (props: LoginProps) => {
           />
           <View style={{ marginTop: 15, width: '100%', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
             <Text style={{ marginRight: 5 }}>Antum lupa password?</Text>
-            <Link to="/register"><Text style={{ color: 'blue' }}>Klik disini</Text></Link>
+            <Link to="/"><Text style={{ color: 'blue' }}>Klik disini</Text></Link>
           </View>
           <View style={{ marginTop: 15, width: '100%', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
             <Text style={{ marginRight: 5 }}>Antum tidak mempunyai akun?</Text>
@@ -74,13 +74,8 @@ const Login: React.FC<LoginProps> = (props: LoginProps) => {
           </View>
         </View>
       </SafeAreaView>
-    </>
+    </View>
   );
 }
-
-// styles
-const styles = StyleSheet.create({
-
-});
 
 export default Login;
