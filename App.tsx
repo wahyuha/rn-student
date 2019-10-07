@@ -35,7 +35,7 @@ const AppEntry = (props: any) => {
         {appRoutes.map((route: any, key: any) => (
           <Route
             component={route.component}
-            exact={true}
+            exact={route.exact}
             key={key}
             path={route.path}
           />

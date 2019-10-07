@@ -39,7 +39,7 @@ class AnimatedChild extends React.Component<AnimatedChildProps> {
   componentDidUpdate(prevProps: AnimatedChildProps, prevState: any, snapshot: any) {
     if (this.props.url !== prevProps.url && snapshot !== null) {
       if (this.state.animating) {
-        this.props.anim.stopAnimation(() => this.startAnimation(snapshot));
+        this.props.anim.stopAnimation();
       } else {
         this.startAnimation(snapshot);
       }
@@ -56,8 +56,8 @@ class AnimatedChild extends React.Component<AnimatedChildProps> {
         duration,
       }).start();
     });
-    this.props.anim.addListener((value: number) => {
-      if (value === 1) {
+    this.props.anim.addListener((value: any) => {
+      if (value.value === 1) {
         const st = setTimeout(() => {
           this.setState({
             animating: false,
@@ -82,7 +82,10 @@ class AnimatedChild extends React.Component<AnimatedChildProps> {
               left: 0,
               right: 0,
               bottom: 0,
-              top: 0,
+              top: anim.interpolate({
+                inputRange: [0, 1],
+                outputRange: [0, -100]
+              }),
               opacity: anim.interpolate({
                 inputRange: [0, 1],
                 outputRange: [1, 0]
@@ -99,7 +102,7 @@ class AnimatedChild extends React.Component<AnimatedChildProps> {
             bottom: 0,
             top: anim.interpolate({
               inputRange: [0, 1],
-              outputRange: [50, 0]
+              outputRange: [100, 0]
             }),
             opacity: anim.interpolate({
               inputRange: [0, 1],
