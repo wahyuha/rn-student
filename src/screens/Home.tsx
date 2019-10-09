@@ -65,7 +65,7 @@ const Home = () => {
         </ScrollView>
       </SafeAreaView> */}
       <View><Text>Home</Text></View>
-      <BottomNavigationBar />
+      {/* <BottomNavigationBar /> */}
     </>
   );
 };
