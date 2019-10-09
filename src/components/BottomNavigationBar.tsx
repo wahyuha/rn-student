@@ -32,6 +32,7 @@ const BottomNavigationBar: React.FC<any> = () => {
   const menus = [
     {
       label: 'Home',
+      exact: true,
       path: '/',
     },
     {
@@ -50,7 +51,7 @@ const BottomNavigationBar: React.FC<any> = () => {
   return (
     <View style={styles.root}>
       {menus.map((menu: any) => (
-        <TabMenu to={menu.path} style={styles.menu} key={menu.path}>{menu.label}</TabMenu>
+        <TabMenu activeOnlyWhenExact={menu.exact} to={menu.path} style={styles.menu} key={menu.path}>{menu.label}</TabMenu>
       ))}
     </View>
   );

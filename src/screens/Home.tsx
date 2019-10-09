@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
       <StatusBar barStyle="default" />
-      {/* <SafeAreaView>
+      <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
@@ -63,8 +63,7 @@ const Home = () => {
             <LearnMoreLinks />
           </View>
         </ScrollView>
-      </SafeAreaView> */}
-      <View><Text>Home</Text></View>
+      </SafeAreaView>
       {/* <BottomNavigationBar /> */}
     </>
   );
