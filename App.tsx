@@ -14,12 +14,13 @@ import {
   NativeRouter,
   Route,
   Switch,
+  withRouter,
 } from 'react-router-native';
-import AnimatedChild from './components/AnimatedChild';
+import AnimatedChild from './src/components/AnimatedChild';
 import appRoutes from './appRoutes';
 import { Animated } from 'react-native';
 
-const AppEntry = (props: any) => {
+const AppEntry = withRouter((props: any) => {
   const {
     location,
     match,
@@ -43,12 +44,12 @@ const AppEntry = (props: any) => {
       </Switch>
     </AnimatedChild>
   );
-}
+});
 
 const App = () => (
   <NativeRouter>
     <BackButton>
-      <Route component={AppEntry} path="/" />
+      <AppEntry />
     </BackButton>
   </NativeRouter>
 );

@@ -30,9 +30,7 @@ class AnimatedChild extends React.Component<AnimatedChildProps> {
     }).start();
   }
 
-  getSnapshotBeforeUpdate(prevProps: AnimatedChildProps) {
-    // Are we adding new items to the list?
-    // Capture the scroll position so we can adjust scroll later.
+  static getSnapshotBeforeUpdate(prevProps: AnimatedChildProps) {
     return prevProps.children;
   }
 
@@ -41,8 +39,12 @@ class AnimatedChild extends React.Component<AnimatedChildProps> {
       if (this.state.animating) {
         this.props.anim.stopAnimation();
       } else {
-        this.startAnimation(snapshot);
+        if (this.props.anim !== 1) {
+          this.startAnimation(snapshot);
+        }
       }
+    } else if (this.props.anim === 0 && snapshot === null) {
+      this.props.anim.setOffset(1);
     }
   }
 
@@ -75,17 +77,18 @@ class AnimatedChild extends React.Component<AnimatedChildProps> {
     const { previousChildren } = this.state;
     return (
       <>
-        {previousChildren && (
+        {/* {previousChildren && (
           <Animated.View
             style={{
               position: 'absolute',
               left: 0,
               right: 0,
               bottom: 0,
-              top: anim.interpolate({
-                inputRange: [0, 1],
-                outputRange: [0, -100]
-              }),
+              top: 0,
+              // top: anim.interpolate({
+              //   inputRange: [0, 1],
+              //   outputRange: [0, -100]
+              // }),
               opacity: anim.interpolate({
                 inputRange: [0, 1],
                 outputRange: [1, 0]
@@ -93,13 +96,16 @@ class AnimatedChild extends React.Component<AnimatedChildProps> {
             }}>
             {previousChildren}
           </Animated.View>
-        )}
+        )} */}
+        {previousChildren}
         <Animated.View
           style={{
             position: "absolute",
+            backgroundColor: '#FFF',
             left: 0,
             right: 0,
             bottom: 0,
+            // top: 0,
             top: anim.interpolate({
               inputRange: [0, 1],
               outputRange: [100, 0]

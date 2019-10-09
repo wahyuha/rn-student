@@ -1,9 +1,9 @@
-import Home from './screens/Home';
-import Login from './screens/Login';
-import Register from './screens/Register';
+import Home from './src/screens/Home';
+import Login from './src/screens/Login';
+import Register from './src/screens/Register';
 
-import HomeInterface from './interfaces/screens/Home';
-import LoginInterface from './interfaces/screens/Login';
+import HomeInterface from './src/interfaces/screens/Home';
+import LoginInterface from './src/interfaces/screens/Login';
 
 interface appRoutesProps {
   component: React.FC<HomeInterface> | React.FC<LoginInterface> | React.FC<{}>,
