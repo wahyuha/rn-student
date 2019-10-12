@@ -1,4 +1,4 @@
-package com.hsimobileapp;
+package com.rnstudent;
 
 import android.app.Application;
 import android.content.Context;

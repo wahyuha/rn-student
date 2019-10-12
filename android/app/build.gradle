@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.hsimobileapp"
+        applicationId "com.rnstudent"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy "RNN.reactNativeVersion", "reactNative60"

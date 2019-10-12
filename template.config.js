@@ -1,4 +1,4 @@
 module.exports = {
-  placeholderName: 'HSIMobileApp',
+  placeholderName: 'RNStudent',
   templateDir: './template',
 }

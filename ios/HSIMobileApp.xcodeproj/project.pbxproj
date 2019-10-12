@@ -17,9 +17,9 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* HSIMobileAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HSIMobileAppTests.m */; };
 		4235F8C81403EFD990914FF7 /* libPods-HSIMobileAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A507459BBED617AE24F9E2 /* libPods-HSIMobileAppTests.a */; };
-		851C3911A5915A577B0D7040 /* libPods-HSIMobileApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EFEFA0964DE9A5D3743565 /* libPods-HSIMobileApp.a */; };
-		EED5321F3CC898216F2E8E25 /* libPods-HSIMobileApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F2317227A11951D1D50095 /* libPods-HSIMobileApp-tvOSTests.a */; };
-		F526A8769C18717DD0FC44C6 /* libPods-HSIMobileApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F96F48EF060F16A29E88AA /* libPods-HSIMobileApp-tvOS.a */; };
+		851C3911A5915A577B0D7040 /* libPods-RNStudent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EFEFA0964DE9A5D3743565 /* libPods-RNStudent.a */; };
+		EED5321F3CC898216F2E8E25 /* libPods-RNStudent-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F2317227A11951D1D50095 /* libPods-RNStudent-tvOSTests.a */; };
+		F526A8769C18717DD0FC44C6 /* libPods-RNStudent-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F96F48EF060F16A29E88AA /* libPods-RNStudent-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,14 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = HSIMobileApp;
+			remoteInfo = RNStudent;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "HSIMobileApp-tvOS";
+			remoteInfo = "RNStudent-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,28 +44,28 @@
 		00E356EE1AD99517003FC87E /* HSIMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSIMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* HSIMobileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSIMobileAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* HSIMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSIMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HSIMobileApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HSIMobileApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RNStudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNStudent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNStudent/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNStudent/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HSIMobileApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HSIMobileApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HSIMobileApp/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* HSIMobileApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HSIMobileApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* HSIMobileApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HSIMobileApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39D0D72A640C0662B24D5B0E /* Pods-HSIMobileApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSIMobileApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-HSIMobileApp-tvOS/Pods-HSIMobileApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		3B807BCA3693C9747DD49D84 /* Pods-HSIMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSIMobileApp.debug.xcconfig"; path = "Target Support Files/Pods-HSIMobileApp/Pods-HSIMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNStudent/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNStudent/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNStudent/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* RNStudent-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNStudent-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* RNStudent-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNStudent-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D0D72A640C0662B24D5B0E /* Pods-RNStudent-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStudent-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNStudent-tvOS/Pods-RNStudent-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3B807BCA3693C9747DD49D84 /* Pods-RNStudent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStudent.debug.xcconfig"; path = "Target Support Files/Pods-RNStudent/Pods-RNStudent.debug.xcconfig"; sourceTree = "<group>"; };
 		78A507459BBED617AE24F9E2 /* libPods-HSIMobileAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSIMobileAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DD5A52BC367EA59941133DE /* Pods-HSIMobileApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSIMobileApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HSIMobileApp-tvOSTests/Pods-HSIMobileApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8078790188C704735D26E6D6 /* Pods-HSIMobileApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSIMobileApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-HSIMobileApp-tvOSTests/Pods-HSIMobileApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DD5A52BC367EA59941133DE /* Pods-RNStudent-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStudent-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNStudent-tvOSTests/Pods-RNStudent-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8078790188C704735D26E6D6 /* Pods-RNStudent-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStudent-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNStudent-tvOSTests/Pods-RNStudent-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		833BFF24A266F5D60A7BC098 /* Pods-HSIMobileAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSIMobileAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HSIMobileAppTests/Pods-HSIMobileAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		947DD9C5E4710A7B8D883BA3 /* Pods-HSIMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSIMobileApp.release.xcconfig"; path = "Target Support Files/Pods-HSIMobileApp/Pods-HSIMobileApp.release.xcconfig"; sourceTree = "<group>"; };
-		98F2317227A11951D1D50095 /* libPods-HSIMobileApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSIMobileApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		996D51124BA9CD89EEA6B53B /* Pods-HSIMobileApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSIMobileApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-HSIMobileApp-tvOS/Pods-HSIMobileApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C2F96F48EF060F16A29E88AA /* libPods-HSIMobileApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSIMobileApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947DD9C5E4710A7B8D883BA3 /* Pods-RNStudent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStudent.release.xcconfig"; path = "Target Support Files/Pods-RNStudent/Pods-RNStudent.release.xcconfig"; sourceTree = "<group>"; };
+		98F2317227A11951D1D50095 /* libPods-RNStudent-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNStudent-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		996D51124BA9CD89EEA6B53B /* Pods-RNStudent-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNStudent-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNStudent-tvOS/Pods-RNStudent-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C2F96F48EF060F16A29E88AA /* libPods-RNStudent-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNStudent-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F3EFEFA0964DE9A5D3743565 /* libPods-HSIMobileApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSIMobileApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EFEFA0964DE9A5D3743565 /* libPods-RNStudent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNStudent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CD11CC64D9C86C2837C34A /* Pods-HSIMobileAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSIMobileAppTests.release.xcconfig"; path = "Target Support Files/Pods-HSIMobileAppTests/Pods-HSIMobileAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				851C3911A5915A577B0D7040 /* libPods-HSIMobileApp.a in Frameworks */,
+				851C3911A5915A577B0D7040 /* libPods-RNStudent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F526A8769C18717DD0FC44C6 /* libPods-HSIMobileApp-tvOS.a in Frameworks */,
+				F526A8769C18717DD0FC44C6 /* libPods-RNStudent-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED5321F3CC898216F2E8E25 /* libPods-HSIMobileApp-tvOSTests.a in Frameworks */,
+				EED5321F3CC898216F2E8E25 /* libPods-RNStudent-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* HSIMobileApp */ = {
+		13B07FAE1A68108700A75B9A /* RNStudent */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = HSIMobileApp;
+			name = RNStudent;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,9 +141,9 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				F3EFEFA0964DE9A5D3743565 /* libPods-HSIMobileApp.a */,
-				C2F96F48EF060F16A29E88AA /* libPods-HSIMobileApp-tvOS.a */,
-				98F2317227A11951D1D50095 /* libPods-HSIMobileApp-tvOSTests.a */,
+				F3EFEFA0964DE9A5D3743565 /* libPods-RNStudent.a */,
+				C2F96F48EF060F16A29E88AA /* libPods-RNStudent-tvOS.a */,
+				98F2317227A11951D1D50095 /* libPods-RNStudent-tvOSTests.a */,
 				78A507459BBED617AE24F9E2 /* libPods-HSIMobileAppTests.a */,
 			);
 			name = Frameworks;
@@ -159,7 +159,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* HSIMobileApp */,
+				13B07FAE1A68108700A75B9A /* RNStudent */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* HSIMobileAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* HSIMobileApp.app */,
+				13B07F961A680F5B00A75B9A /* RNStudent.app */,
 				00E356EE1AD99517003FC87E /* HSIMobileAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* HSIMobileApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* HSIMobileApp-tvOSTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* RNStudent-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* RNStudent-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,12 +185,12 @@
 		8F92B1422F2A188543C464DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B807BCA3693C9747DD49D84 /* Pods-HSIMobileApp.debug.xcconfig */,
-				947DD9C5E4710A7B8D883BA3 /* Pods-HSIMobileApp.release.xcconfig */,
-				39D0D72A640C0662B24D5B0E /* Pods-HSIMobileApp-tvOS.debug.xcconfig */,
-				996D51124BA9CD89EEA6B53B /* Pods-HSIMobileApp-tvOS.release.xcconfig */,
-				7DD5A52BC367EA59941133DE /* Pods-HSIMobileApp-tvOSTests.debug.xcconfig */,
-				8078790188C704735D26E6D6 /* Pods-HSIMobileApp-tvOSTests.release.xcconfig */,
+				3B807BCA3693C9747DD49D84 /* Pods-RNStudent.debug.xcconfig */,
+				947DD9C5E4710A7B8D883BA3 /* Pods-RNStudent.release.xcconfig */,
+				39D0D72A640C0662B24D5B0E /* Pods-RNStudent-tvOS.debug.xcconfig */,
+				996D51124BA9CD89EEA6B53B /* Pods-RNStudent-tvOS.release.xcconfig */,
+				7DD5A52BC367EA59941133DE /* Pods-RNStudent-tvOSTests.debug.xcconfig */,
+				8078790188C704735D26E6D6 /* Pods-RNStudent-tvOSTests.release.xcconfig */,
 				833BFF24A266F5D60A7BC098 /* Pods-HSIMobileAppTests.debug.xcconfig */,
 				F4CD11CC64D9C86C2837C34A /* Pods-HSIMobileAppTests.release.xcconfig */,
 			);
@@ -220,9 +220,9 @@
 			productReference = 00E356EE1AD99517003FC87E /* HSIMobileAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* HSIMobileApp */ = {
+		13B07F861A680F5B00A75B9A /* RNStudent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HSIMobileApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNStudent" */;
 			buildPhases = (
 				19A4E1608132755ED79B604A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = HSIMobileApp;
-			productName = HSIMobileApp;
-			productReference = 13B07F961A680F5B00A75B9A /* HSIMobileApp.app */;
+			name = RNStudent;
+			productName = RNStudent;
+			productReference = 13B07F961A680F5B00A75B9A /* RNStudent.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* HSIMobileApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* RNStudent-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HSIMobileApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNStudent-tvOS" */;
 			buildPhases = (
 				BA76F6EF1D8F31D765D9A143 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "HSIMobileApp-tvOS";
-			productName = "HSIMobileApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* HSIMobileApp-tvOS.app */;
+			name = "RNStudent-tvOS";
+			productName = "RNStudent-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* RNStudent-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* HSIMobileApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* RNStudent-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HSIMobileApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNStudent-tvOSTests" */;
 			buildPhases = (
 				E4478CF453BBC536E83EDD9A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "HSIMobileApp-tvOSTests";
-			productName = "HSIMobileApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* HSIMobileApp-tvOSTests.xctest */;
+			name = "RNStudent-tvOSTests";
+			productName = "RNStudent-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* RNStudent-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "HSIMobileApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNStudent" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* HSIMobileApp */,
+				13B07F861A680F5B00A75B9A /* RNStudent */,
 				00E356ED1AD99517003FC87E /* HSIMobileAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* HSIMobileApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* HSIMobileApp-tvOSTests */,
+				2D02E47A1E0B4A5D006451C7 /* RNStudent-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* RNStudent-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -388,7 +388,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HSIMobileApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNStudent-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HSIMobileApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNStudent-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HSIMobileApp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNStudent-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* HSIMobileApp */;
+			target = 13B07F861A680F5B00A75B9A /* RNStudent */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* HSIMobileApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* RNStudent-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = HSIMobileApp;
+			path = RNStudent;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -597,7 +597,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSIMobileApp.app/HSIMobileApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNStudent.app/RNStudent";
 			};
 			name = Debug;
 		};
@@ -617,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSIMobileApp.app/HSIMobileApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNStudent.app/RNStudent";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B807BCA3693C9747DD49D84 /* Pods-HSIMobileApp.debug.xcconfig */;
+			baseConfigurationReference = 3B807BCA3693C9747DD49D84 /* Pods-RNStudent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = HSIMobileApp/Info.plist;
+				INFOPLIST_FILE = RNStudent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = HSIMobileApp;
+				PRODUCT_NAME = RNStudent;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 947DD9C5E4710A7B8D883BA3 /* Pods-HSIMobileApp.release.xcconfig */;
+			baseConfigurationReference = 947DD9C5E4710A7B8D883BA3 /* Pods-RNStudent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = HSIMobileApp/Info.plist;
+				INFOPLIST_FILE = RNStudent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = HSIMobileApp;
+				PRODUCT_NAME = RNStudent;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39D0D72A640C0662B24D5B0E /* Pods-HSIMobileApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 39D0D72A640C0662B24D5B0E /* Pods-RNStudent-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "HSIMobileApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "RNStudent-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.HSIMobileApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNStudent-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 996D51124BA9CD89EEA6B53B /* Pods-HSIMobileApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 996D51124BA9CD89EEA6B53B /* Pods-RNStudent-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "HSIMobileApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "RNStudent-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.HSIMobileApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNStudent-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DD5A52BC367EA59941133DE /* Pods-HSIMobileApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 7DD5A52BC367EA59941133DE /* Pods-RNStudent-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "HSIMobileApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "RNStudent-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.HSIMobileApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNStudent-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSIMobileApp-tvOS.app/HSIMobileApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNStudent-tvOS.app/RNStudent-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8078790188C704735D26E6D6 /* Pods-HSIMobileApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 8078790188C704735D26E6D6 /* Pods-RNStudent-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "HSIMobileApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "RNStudent-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.HSIMobileApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNStudent-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSIMobileApp-tvOS.app/HSIMobileApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNStudent-tvOS.app/RNStudent-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HSIMobileApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNStudent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HSIMobileApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNStudent-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HSIMobileApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNStudent-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "HSIMobileApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNStudent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
